@@ -56,6 +56,25 @@ source bin/activate
 pip3 install openai-whisper moviepy argostranslate srt
 ```
 
+## Jalankan Python3 
+
+```
+python3.11
+```
+
+Isi dengan:
+
+```
+import argostranslate.package, urllib.request
+
+url = "https://www.argosopentech.com/dl/ja_id.argosmodel"
+path = "ja_id.argosmodel"
+urllib.request.urlretrieve(url, path)
+argostranslate.package.install_from_path(path)
+exit()
+```
+
+
 ## Run
 
 ```
