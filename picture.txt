@@ -1,0 +1,1 @@
+magick wfljp-002.jpg -gravity southeast -pointsize 24 -fill white -annotate +20+20 "©filemjepang" output.jpg
