@@ -1,5 +1,6 @@
 # Filem Jepang
 
+![](https://github.com/filemjepang/Bikin-Filem/blob/main/banner_fj.png)
 
 ## Install 
 
