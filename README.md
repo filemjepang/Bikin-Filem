@@ -22,3 +22,9 @@ ffmpeg -i <video> -filter:v "crop='min(iw\,ih)':'min(iw\,ih)':(iw-min(iw\,ih))/2
 ```
 ffmpeg -i <video> -vcodec copy -af "volume=2.0" <output>
 ```
+
+## Tambah Watermark
+
+```
+ffmpeg -i <video> -vf "drawtext=text='@filemjepang':fontcolor=white:fontsize=24:x=w-tw-20:y=h-th-20" -codec:a copy <output>
+```
